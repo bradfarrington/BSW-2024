@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="header-styles.css" type="text/css" />
+    <link rel="stylesheet" href="hero-styles.css" type="text/css">
+    <script src="header.js"></script>
     <script
       src="https://kit.fontawesome.com/755d98b8ba.js"
       crossorigin="anonymous"
     ></script>
+    <script src="hero.js"></script>
   </head>
   <body>
-    <header>
+    <header id="mainHeader">
       <div class="main-header">
       <div id="logo-header">
         <img
@@ -124,5 +127,21 @@
       </div>
     </div>
     </header>
+
+    <div class="hero-image">
+        <img class="hero-images" src="assets/images/hero-4.jpg">
+        <div class="hero-overlay">
+          <h3 id="hero-text-welcome">
+            <i id="welcome-square" class="fa-solid fa-square"></i>
+            Welcome to Bradley Scott Windows</h3>
+        </div>
+        <div class="hero-overlay">
+          <h1 id="hero-text-about">99% Customer Satisfaction Rate</h1>
+        </div>
+        <div class="hero-overlay">
+          <img id="years-badge" src="assets/images/years-badge.png" alt="">
+        </div>
+    </div>
+    
   </body>
 </html>
