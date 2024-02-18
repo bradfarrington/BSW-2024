@@ -18,7 +18,7 @@ header.scrolled .third-header{
 }
 
 #logo-header-img {
-  width: 7.5vw;
+  width: 5vw;
   height: auto;
   padding-left: 25%;
   padding-top: 5%;
@@ -31,7 +31,7 @@ header.scrolled .third-header{
 .fa-brands {
   font-size: 100%;
   padding-left: 5%;
-  padding-top: 60%;
+  padding-top: 35%;
   color: red;
 }
 
@@ -43,7 +43,7 @@ header.scrolled .third-header{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 130%;
-  padding-top: 16%;
+  padding-top: 7%;
   padding-left: 10%;
 }
 
@@ -62,14 +62,14 @@ header.scrolled .third-header{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 125%;
-  padding-top: 24.5%;
   padding-right: 5%;
+  padding-top: 11%;
 }
 
 #phone-number-header {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 130%;
-  padding-top: 30%;
+  padding-top: 16.5%;
   color: red;
   text-decoration: none;
   height: 5%;
@@ -84,7 +84,7 @@ header.scrolled .third-header{
 #header-button {
   background-color: red;
   width: 55%;
-  height: 25%;
+  height: 35%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 110%;
   text-decoration: none;
@@ -109,7 +109,7 @@ header.scrolled .third-header{
 }
 
 #email-header {
-  padding-top: 12%;
+  padding-top: 8%;
   padding-left: 5%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
