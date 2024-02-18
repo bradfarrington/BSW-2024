@@ -81,7 +81,7 @@ header.scrolled .third-header{
   flex-direction: column;
 }
 
-#header-button {
+.header-button {
   background-color: red;
   width: 55%;
   height: 35%;
@@ -176,9 +176,13 @@ header.scrolled .third-header{
 .dropdown-container:hover .dropdown-list {
   display: block;
   margin-top: 1%;
-  background-color: lightgrey;
+  background-color: rgba(211, 211, 211, 0.937);
   width: 20%;
   text-align: center;
+}
+
+.dropdown-list a:hover {
+  color: red
 }
 
 .quote-button {
