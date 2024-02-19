@@ -1,66 +1,144 @@
- .container {
-    width: 80%;
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 5%;
-      margin-left: 10%;
-    }
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  padding-left: 7.5%;
+}
 
-    .large-div {
-      width: 30%;
-      margin-right: 10px;
-      margin-left: 7.5%;
-    }
+.section-overlay{
+    width: 40%;
+    position: absolute;
+    display: flex;
+}
 
-    .side-divs{
-        width: 50%;
-    }
+.large-div {
+  width: 35%;
+  margin-right: 10px;
+}
 
-    #big-image{
-        width: 90%;
-        height: 92%;
-    }
+.side-divs {
+  width: 45%;
+}
 
-    .small-div {
-        width: 50%;
-        margin-left: 5%;
-      margin-bottom: 10px;
-    }
+#big-image {
+  width: 100%;
+  height: 87.5%;
+}
 
-    #small-img-one{
-        width: 100%;
-        height: 100%;
-    }
+.small-div {
+  width: 60%;
+  height: 50%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
 
-    #small-img-two{
-        width: 120%;
-        height: 100%;
-    }
+#small-img-one {
+  width: 100%;
+  height: 100%;
+}
 
-    #small-img-three{
-        width: 100%;
-        height: 84%;
-        margin-top: 5%;
-    }
+#small-img-two {
+  width: 100%;
+  height: 90%;
+}
 
-    #small-img-four{
-        width: 120%;
-        height: 84%;
-        margin-top: 5%;
-    }
+#small-img-three {
+  width: 100%;
+  height: 50%;
+}
 
-    .top-divs {
-      display: flex;
-      justify-content: space-between;
-    }
+#small-img-four {
+  width: 100%;
+  height: 84%;
+}
 
-    #flush-sash-text{
-        width: 100%;
-        padding-top: 280%;
-        padding-left: 60%;
-        color: white;
-    }
+.top-divs {
+  display: flex;
+  justify-content: space-between;
+}
 
-    #flush-sash-text:hover{
-        color: black;
-    }
+#flush-sash-text {
+  width: 30%;
+  font-size: 150%;
+  margin-top: 105%;
+  padding-left: 5%;
+  color: white;
+  margin-bottom: 5%;
+}
+
+#flush-sash-link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    margin-top: 108%;
+    margin-left: 30%;
+    padding: 0.5%;
+    padding-left: 3%;
+    background-color: red;
+    width: 15%;
+    height: 10%;
+}
+
+#flush-sash-link:hover{
+    color: red;
+    font-weight: bolder;
+    background-color: white;
+}
+
+
+#flush-sash-veka-logo{
+    padding-left: 22%;
+}
+
+.small-div-text {
+  width: 20%;
+  font-size: 110%;
+  margin-top: 35%;
+  padding-left: 2%;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.small-div-link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+    margin-top: 37%;
+    margin-left: 12%;
+    padding: 0.5%;
+    padding-left: 3%;
+    background-color: red;
+    width: 12%;
+    height: 7.5%;
+}
+
+.small-div-link:hover{
+    color: red;
+    font-weight: bolder;
+    background-color: white;
+}
+
+#which-logo{
+    width: 40%;
+    margin-left: 80%;
+}
+
+#lantern-text{
+    margin-top: 60%;
+}
+
+#lantern-link{
+    margin-top: 61%;
+}
+
+#doors-text{
+    margin-top: 60%;
+}
+
+#doors-link{
+    margin-top: 61%;
+}
+
