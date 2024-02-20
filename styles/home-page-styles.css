@@ -243,6 +243,12 @@
 }
 
 @media screen and (max-width: 820px) {
+
+  #hero-text-welcome {
+    padding-left: 30%;
+    padding-top: 25%;
+  }
+
   #flush-sash-text{
     margin-top: 130%;
   }
