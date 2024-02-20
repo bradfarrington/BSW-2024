@@ -325,8 +325,9 @@ header.scrolled .third-header{
   flex-direction: column;
 }
 
-#header-button{
+.header-button{
   height: 30%;
+  margin-top: 10%;
 }
 
 .dropdown-title {

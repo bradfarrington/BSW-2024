@@ -75,7 +75,7 @@
     margin-top: 108%;
     margin-left: 30%;
     padding: 0.5%;
-    padding-left: 3%;
+    padding-left: 4%;
     background-color: red;
     width: 15%;
     height: 10%;
@@ -142,3 +142,97 @@
     margin-top: 61%;
 }
 
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 95%;
+    padding-left: 4%;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+
+  .section-overlay{
+    width: 30%;
+  }
+
+  .large-div {
+    width: 40%;
+  }
+
+  .small-div {
+    width: 90%;
+    height: 120%;
+  }
+
+  .side-divs  {
+    width:52%;
+  }
+
+  .top-divs{
+    width: 100%;
+  }
+
+  #big-image{
+    width: 100%;
+    height: 89%;
+  }
+
+  #small-img-one {
+    width: 100%;
+    height: 110%;
+  }
+
+  #flush-sash-text {
+  width: 100%;
+  margin-top: 148%;
+  }
+
+  #flush-sash-link{
+    margin-top: 158%;
+    margin-left: 5%;
+    padding: 0.5%;
+    padding-left: 3%;
+    background-color: red;
+    width: 60%;
+    height: 10%;
+  }
+
+  #flush-sash-veka-logo{
+    padding-left: 15%;
+  }
+
+  .small-div-text {
+    width: 30%;
+    margin-top: 35%;
+    padding-left: 2%;
+  }
+
+  .small-div-link{
+    margin-top: 50%;
+    width: 22%;
+    font-size: 65%;
+  }
+
+  #which-logo{
+    width: 45%;
+    height: 15%;
+    margin-left: 100%;
+  }
+
+  #lantern-text{
+    margin-top: 80%;
+  }
+
+  #lantern-link{
+    margin-top: 88%;
+  }
+
+  #doors-text{
+    width: 30%;
+    margin-top: 81%;
+  }
+
+  #doors-link{
+    margin-left: 7%;
+    margin-top: 88%;
+  }
+}
