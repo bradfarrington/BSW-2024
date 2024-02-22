@@ -242,7 +242,7 @@ header.scrolled .third-header{
 
 #header-slogan {
   font-size: 130%;
-  padding-top: 10%;
+  padding-top: 8%;
   padding-left: 0%;
 }
 
@@ -401,4 +401,58 @@ hr{
 .third-header{
   display: none;
 }
+}
+/* creating styles for ipad landscape only */
+
+@media only screen and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape){
+  #logo-header{
+    width: 12vw;
+  }
+
+  #logo-header-img{
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 5%;
+  }
+
+  #links-header{
+    width: 6%;
+    padding-left: 2%;
+    padding-top: 2%;
+  }
+
+  .fa-brands{
+    padding-left: 10%;
+  }
+
+  #header-slogan{
+    padding-top: 5%;
+  }
+
+  #opening-times{
+    padding-left: 40%;
+  }
+
+  #times-header{
+    width: 22%;
+    padding-left: 2%;
+  }
+
+  #phone-number-header{
+    padding-top: 17.5%;
+    height: 20%;
+  }
+
+  #contact-header{
+    width: 25%;
+    padding-top: 1%;
+  }
+
+  .header-button{
+    height: 35%;
+  }
+
+  #email-header{
+    padding-top: 10%;
+  }
 }
