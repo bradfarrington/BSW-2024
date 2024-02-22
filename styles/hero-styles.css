@@ -249,8 +249,13 @@
   }
 
   #years-badge{
-    width: 65%;
-    padding-left: 185%;
+    width: 25%;
+    padding-left: 77%;
     margin-top: 0.5%;
+  }
+
+  #hero-text-welcome{
+    padding-top: 52%;
+    padding-left: 30%;
   }
 }
