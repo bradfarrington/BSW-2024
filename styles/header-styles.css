@@ -404,7 +404,7 @@ hr{
 }
 /* creating styles for ipad landscape only */
 
-@media only screen and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape){
+@media only screen  and (max-width: 1366px) and (orientation: landscape){
   #logo-header{
     width: 12vw;
   }
