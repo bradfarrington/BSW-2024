@@ -456,3 +456,62 @@ hr{
     padding-top: 10%;
   }
 }
+
+@media only screen and (max-width: 1180px) and (orientation: landscape){
+  #logo-header{
+    width: 13vw;
+    text-align: center;
+  }
+
+  #logo-header-img{
+    width: 70%;
+    padding-top: 17.5%;
+  }
+
+  #logo-header-img{
+    padding-left: 5%;
+  }
+
+  #links-header{
+    width: 3%;
+    padding-left: 1%;
+    text-align: center;
+  }
+
+  .fa-brands{
+    font-size: 150%;
+    padding-top: 70%;
+  }
+
+  #opening-times{
+    padding-left: 40%;
+  }
+
+  #times-header{
+    padding-left: 2%;
+    width: 24%;
+  }
+
+  #phone-number-header{
+    padding-top: 18%;
+    height: 20%;
+  }
+
+  #contact-header{
+    width: 26%;
+    padding-top: 1%;
+  }
+
+  #email-header{
+    padding-left: 0%;
+    padding-top: 12%;
+  }
+
+  .header-button{
+    height: 35%;
+    padding-right: 2%;
+  }
+  
+
+
+}

@@ -259,3 +259,20 @@
     padding-left: 30%;
   }
 }
+
+@media only screen and (max-width: 1180px) and (orientation: landscape){
+  .hero-image{
+    margin-top: 23%;
+  }
+
+  #years-badge{
+    width: 20%;
+    padding-left: 55%;
+    margin-top: 0.5%;
+  }
+
+  #hero-text-welcome{
+    padding-top: 40%;
+    padding-left: 30%;
+  }
+}
