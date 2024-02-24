@@ -269,52 +269,88 @@
 @media only screen and (max-width: 1366px) and (orientation: landscape){
 
 .container{
-  width: 100%;
+  width: 85%;
   padding-left: 10%;
 }
 
+.section-overlay{
+  width: 100%;
+  position: absolute;
+}
+
+.large-div{
+  width: 40%;
+  position: relative;
+  display: inline-block;
+}
+
+.side-divs{
+  width: 51.3%;
+  position: relative;
+  display: inline-block;
+}
+
+.small-div{
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+
 #flush-sash-text{
-  margin-top: 102%;
+  width: 50%;
+  margin-top: 115%;
 }
 
 #flush-sash-link{
-  margin-top: 106%;
-  margin-left: 20%;
+  margin-top: 120%;
+  margin-left: 15%;
+  padding-right: 2%;
   width: 20%;
 }
 
+#flush-sash-veka-logo{
+  padding-left: 0%;
+}
 #veka-logo{
-  width: 35%;
+  width: 40%;
+  padding-left: 60%;
 }
 
 .small-div-text{
-  margin-top: 33%;
-  width: 25%;
+  margin-top: 60%;
+  width: 50%;
 }
 
 .small-div-link{
-  margin-top: 34%;
-  width: 15%;
+  margin-top: 68%;
+  width: 30%;
   font-size: 80%;
-  margin-left: 3%;
+  margin-left: 8%;
   padding-left: 2%;
 }
 
+#which-logo{
+  margin-left: 60%;
+}
+
 #lantern-text{
-  margin-top: 55%;
+  margin-top: 110%;
+  padding-left: 3%;
 }
 
 #lantern-link{
-  margin-top: 59%;
+  margin-top: 120%;
 }
 
 #doors-text{
-  margin-top: 55%;
+  margin-top: 110%;
 }
 
 #doors-link{
-  margin-top: 59%;
+  margin-top: 120%;
 }
+
 }
 
 @media only screen and (max-width: 1180px) and (orientation: landscape){
@@ -322,6 +358,10 @@
   .container{
     width: 100%;
     padding-left: 10%;
+  }
+
+  .section-overlay{
+    object-fit: contain;
   }
 
   #flush-sash-text{
