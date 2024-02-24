@@ -269,8 +269,8 @@
 @media only screen and (max-width: 1366px) and (orientation: landscape){
 
 .container{
-  width: 85%;
-  padding-left: 10%;
+  width: 99vw;
+  padding-left: 0.5%;
 }
 
 .section-overlay{
@@ -279,13 +279,13 @@
 }
 
 .large-div{
-  width: 40%;
+  width: 43%;
   position: relative;
   display: inline-block;
 }
 
 .side-divs{
-  width: 51.3%;
+  width: 55%;
   position: relative;
   display: inline-block;
 }
@@ -299,14 +299,16 @@
 
 #flush-sash-text{
   width: 50%;
+  font-size: 200%;
   margin-top: 115%;
 }
 
 #flush-sash-link{
   margin-top: 120%;
-  margin-left: 15%;
-  padding-right: 2%;
-  width: 20%;
+  margin-left: 10%;
+  padding-right: 1%;
+  width: 25%;
+  font-size: 140%;
 }
 
 #flush-sash-veka-logo{
@@ -320,14 +322,16 @@
 .small-div-text{
   margin-top: 60%;
   width: 50%;
+  font-size: 140%;
 }
 
 .small-div-link{
   margin-top: 68%;
   width: 30%;
-  font-size: 80%;
+  font-size: 110%;
   margin-left: 8%;
   padding-left: 2%;
+  padding-right: 2%;
 }
 
 #which-logo{
