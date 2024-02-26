@@ -208,7 +208,7 @@
 
   #hero-video {
     width: 430px;
-    height: 400px;
+    height: 300px;
   }
 
   #years-badge {
@@ -220,27 +220,50 @@
 
   #hero-text-welcome {
     font-size: smaller;
-    padding-top: 45%;
-    padding-left: 15%;
+    padding-top: 35%;
+    padding-left: 10%;
   }
 
   #hero-text-about {
-    padding-top: 35%;
-    font-size: 185%;
+    padding-top: 30%;
+    font-size: 150%;
+    padding-bottom: 2.5%;
+  }
+
+  #hero-button{
+    margin-left: 15%;
+    font-size: 90%;
   }
 }
 
 @media screen and (max-width: 390px) {
 
+  .hero-image{
+    margin-top: 16.5;
+  }
+
+  #hero-video{
+    width: 390px;
+    height: 300px;
+  }
+
   #years-badge {
     width: 30%;
     margin-top: 0.5%;
-    padding-left: 80%;
+    padding-left: 70%;
   }
 
+  #hero-text-welcome{
+    padding-top: 35%;
+    padding-left: 10%;
+  }
   #hero-text-about {
-    padding-top: 40%;
-    font-size: 200%;
+    padding-top: 30%;
+    font-size: 150%;
+    padding-bottom: 2.5%;
+  }
+  #hero-button{
+    font-size: 90%;
   }
 }
 
