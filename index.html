@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="styles/header-styles.css" type="text/css" />
     <link rel="stylesheet" href="styles/hero-styles.css" type="text/css">
     <link rel="stylesheet" href="styles/home-page-styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-KyVvcyt9Xpm4mf+s3pGbwPe57aYMWJytdgibj+EZCJxSFay5mKJ6OVRKu/9cKWU6p+a/OzscBrM5i7YPFDu8/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script src="header.js"></script>
+    <script src="hero.js"></script>
     <script
       src="https://kit.fontawesome.com/755d98b8ba.js"
       crossorigin="anonymous"
     ></script>
-    <script src="hero.js"></script>
+    
   </head>
 
   <body>
@@ -51,6 +54,7 @@
             <i class="fa-regular fa-envelope"></i> info@bradleyscottwindows.co.uk
         </a>
       </div>
+      <div class="hamburger-menu">&#9776;</div>
     </div>
     <hr id="header-line">
     <div class="secondary-header">
@@ -104,6 +108,7 @@
           Get a Quote
         </a>
       </div>
+      
     </div>
     <div class="third-header">
       <div id="fact-bar">
@@ -211,6 +216,15 @@
       </div>
     </div>
   </div>
-    
+    <script>
+      document.querySelector(".hamburger-menu").addEventListener("click", function () {
+      console.log("Hamburger menu clicked");
+      var dropdownContainers = document.querySelectorAll(".dropdown-container");
+      dropdownContainers.forEach(function (container) {
+        console.log("Toggling dropdown container visibility");
+        container.classList.toggle("active");
+      });
+    });
+    </script>
   </body>
 </html>

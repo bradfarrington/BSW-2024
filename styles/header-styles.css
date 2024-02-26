@@ -401,6 +401,15 @@ hr{
 .third-header{
   display: none;
 }
+
+.hamburger-menu {
+    display: block; /* Display hamburger menu */
+    font-size: 40px;
+    color: red;
+    margin-left: 65%;
+    margin-top: 1%;
+    cursor: pointer;
+  }
 }
 /* creating styles for ipad landscape only */
 
