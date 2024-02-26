@@ -521,3 +521,13 @@
 
 
 }
+
+@media screen and (max-width: 390px) {
+  .container{
+    width: 100vw;
+  }
+
+  .small-div-text{
+    margin-top: 60%;
+  }
+}
